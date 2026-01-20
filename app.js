@@ -50,28 +50,28 @@ const fakeData = {
       "attributes": {
         "digitalKeys": [
           {
-            "slotId": "1",
+            "slotId": "5",
             "friendlyName": "Steve",
             "keyType": "SHARED",
             "deviceType": "PHONE",
             "status": 1
           },
           {
-            "slotId": "2",
+            "slotId": "6",
             "friendlyName": "Steve",
             "keyType": "SHARED",
             "deviceType": "WATCH",
             "status": 1
           },
           {
-            "slotId": "3",
+            "slotId": "7",
             "friendlyName": "Steve's other device",
             "keyType": "SHARED",
             "deviceType": "WATCH",
             "status": 1
           },
           {
-            "slotId": "4",
+            "slotId": "8",
             "friendlyName": "Steve's other phone",
             "keyType": "SHARED",
             "deviceType": "PHONE",
@@ -86,14 +86,14 @@ const fakeData = {
       "attributes": {
         "digitalKeys": [
           {
-            "slotId": "1",
+            "slotId": "9",
             "friendlyName": "Alice",
             "keyType": "SHARED",
             "deviceType": "PHONE",
             "status": 15
           },
           {
-            "slotId": "2",
+            "slotId": "10",
             "friendlyName": "Alicee",
             "keyType": "SHARED",
             "deviceType": "PHONE",
