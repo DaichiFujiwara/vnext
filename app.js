@@ -7,7 +7,23 @@ const port = 3000;
 app.use(express.json());
 
 const fakeData = {
-  "data": []
+  "data": [
+    {
+      "type": "testType",
+      "id": "test",
+      "attributes": {
+        "digitalKeys": [
+          {
+            "slotId": "1",
+            "friendlyName": "Ota's phone",
+            "keyType": "OWNER",
+            "deviceType": "PHONE",
+            "status": 1
+          }
+        ]
+      }
+    }
+  ]
 };
 
 // Define a GET endpoint
