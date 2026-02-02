@@ -9,17 +9,24 @@ app.use(express.json());
 const fakeData = {
   "data": [
     {
-      "type": "DeviceOEMAccount",
+      "type": "testType",
       "id": "test",
       "attributes": {
         "digitalKeys": [
           {
             "slotId": "1",
-            "friendlyName": "Ota's phone",
+            "friendlyName": "Ota's phone_0",
             "keyType": "OWNER",
             "deviceType": "PHONE",
             "status": 1
-          }
+          },
+          {
+            "slotId": "2",
+            "friendlyName": "Ota's phone",
+            "keyType": "SHARED",
+            "deviceType": "PHONE",
+            "status": 1
+          },
         ]
       }
     }
